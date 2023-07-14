@@ -1,4 +1,4 @@
-# Web Scraper
+# Domain Web Scraper
 
 This is a Python script to scrape text data from a list of URLs and save it to a file. It's designed to scrape all the pages within the same domain as the initial URL. It makes use of the `requests`, `BeautifulSoup`, `re`, `os`, `time`, `random`, and `urlparse` libraries.
 
