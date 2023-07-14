@@ -7,32 +7,8 @@ from urllib.parse import urlparse, urljoin
 
 # List of URLs to scrape
 urls = [
-    "https://harmonica.bg/products/",
-    "https://www.italia-bg.com/index.php?route=product/manufacturer/info&manufacturer_id=12",
-    "https://shop.cherga.bg/produkt-kategoriya/%D0%B5%D0%BA%D0%BE-%D1%84%D0%B5%D1%80%D0%BC%D0%B0/",
-    "https://villamelnik.com/vinen-magazin/",
-    "https://www.otmanastira.com/%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd/",
-    "https://angus.bg/?lang=bg",
-    "https://bredas.bg/magazin/",
-    "https://www.facebook.com/magazinipopov/posts/120725726357876/",
-    "http://www.mandravarbina.eu/portfolio.html",
-    "https://tatkovatagradina.bg/magazin/krave-kiselo-mlyako-gerzovica-46/",
-    "https://obedinenifermi-produkti.bg/",
-    "https://receptite.com/%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82%d0%b0/%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d0%be-%d1%84%d0%b8%d0%bb%d0%b5-%d0%b5%d0%bb%d0%b5%d0%bd%d0%b0",
-    "https://smartorganic.bg/",
-    "https://smartorganic.bg/shop/",
-    "https://smartorganic.bg/organic-shop/",
-    "https://sweettwins.eu/%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd/",
-    "https://mandraborino.com/",
-    "https://jaltusha.bg/",
-    "https://borovitza.com/%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d0%b8/",
-    "https://mesar.bg/%d0%ba%d0%be%d1%81-%d1%81%d0%bc%d0%be%d0%bb%d1%8f%d0%bd/",
-    "https://www.ecosem.bg/bg/c-4/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/",
-    "https://fermagurmazovo.com/%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d0%b8/",
-    "https://rostar-bg.com/",
-    "https://shop.labottega.bg/vendor/rummo",
-    "https://blagite.com/",
-    "https://ambrozia.bg/",
+    "",
+    # Put URLs here.
 ]
 
 def get_links(url):
