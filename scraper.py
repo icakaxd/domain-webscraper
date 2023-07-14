@@ -46,12 +46,13 @@ def get_links(url):
     # Find all 'a' tags and extract the href attribute
     for a_tag in soup.find_all('a'):
         href = a_tag.get('href')
-        if href and not href.endswith('.pdf'):  # ignore PDF files
+        if href and not href.endswith(('.pdf', '.jpg', '.jpeg', '.png', '.gif', '.svg')):  # ignore PDF files and images
             full_url = urljoin(url, href)
             if urlparse(full_url).netloc == urlparse(url).netloc:  # ignore external links
                 links.add(full_url)
     
     return links
+
 
 def scrape_text(url):
     """Scrape text from a webpage."""
